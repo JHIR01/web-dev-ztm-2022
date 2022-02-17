@@ -5,8 +5,22 @@ body {
 
 #mochi {
     border: solid 5px rgba(255, 255, 255, 0.5);
+    display: inline-block;
 }
 
 #smokey {
     border: solid 5px rgba(0, 0, 0, 0.5 );
+    display: inline-block;
+}
+
+body > p {
+    text-align: left;
+}
+
+#back_home {
+    text-align: center;
+}
+
+img:hover {
+    display: block;
 }
