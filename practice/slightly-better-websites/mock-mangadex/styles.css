@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #202020;
+}
+
+h1 {
+    color: white;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    
+}
+
+.petpfp {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+.mochi-desc {
+    transform: scale(0.2);
+    border: 4px solid pink;
+}
+
+.smokey-desc {
+    transform: scale(0.2);
+    border: 4px solid pink;
+    float: left;
+}
+
+pet-img {
+    border: 5px dashed pink a(0.2);
+}
+
+.activity {
+    align-items:flex-start;
+}
