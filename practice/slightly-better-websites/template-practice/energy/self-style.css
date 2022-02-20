@@ -10,7 +10,7 @@ main {
     margin-top: 3rem;
 }
 
-.custom-btn {
+.custom-primary {
     background-color: #ff7f50;
     color: white;
 }
@@ -18,3 +18,34 @@ main {
 .all {
     font-family: 'Courier New', Courier;
 }
+
+.card {
+    border-radius: 50px;
+}
+
+img {
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    color: #ff7f50!important;
+    font-weight: bold!important;
+    font-family: 'Courier New', Courier, monospace!important;
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: #ff7f50;
+}
+
