@@ -1,11 +1,21 @@
 DOM Selectors
 --------------
 getElementsByTagName
+    - returns an array of elements under the same tag name as the arguemnt
+    document.getElementsByTagName("");
 getElementsByClassName
+    - gets an array of items that are under the same class name as the arguement
+    document.getElementByClassName("");
 getElementById
+    - gets the specified element under the under the index and the id if the same arguement
+    document.getElementById("")[0];
 
 querySelector
+    - works the same way as 'egtElementBy...' but its a lot momre flexiable with it's arguements and can call items base on their css Selectors
+    document.querySelector("");
 querySelectorAll
+    - gets all the items under the same tag as the arguement in an array
+    document.querySelectorAll("");
 
 getAttribute
 setAttribute
