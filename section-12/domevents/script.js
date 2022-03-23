@@ -11,7 +11,6 @@ function inputLength() {
 function createListElement() {
 	// here there is a list item being created to be added to the list
 	var li = document.createElement("li");
-	// 
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
 	input.value = "";
@@ -32,8 +31,10 @@ function addListAfterKeypress(event) {
 }
 
 // 1. If you click on the list item, it toggles the '.done' class on and off
-function clickForCross() {
-
+function clickForCross(tItem) {
+	if (tItem.target.tagName === "LI") {
+		console.log(tItem.target);
+	}
 }
 
 // 2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button

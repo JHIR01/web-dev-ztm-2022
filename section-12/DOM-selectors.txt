@@ -18,22 +18,46 @@ querySelectorAll
     document.querySelectorAll("");
 
 getAttribute
+    - gets the specific item under the same atttribute arguement
+    document.getAttribute("");
 setAttribute
+    - method used to set or add an attribute to a partiular element
+    document.setAttribute("");
+        OR 
+    documet.setAttribute.property = 'value';
 
 ##Changing Styles
 style.{property} //ok
+    - changes the type of the query item
+    document.querySelector("").style.property = 'value';
 
 className //best
+    - gives new css styling to th item in the 'querySelector'
+    document.querySelector("").className = "";
 classList //best
+    - returns a list of items under the same tage name in the 'querySelector'
+    document.querySelector("").classList;
 
 classList.add
+    - changes the styling of the item of the tag name in the 'querySelector'
+    document.querySelector("").add("");
 classList.remove
+    - removes the specifed styling from the item of the tag name in ther 'querySelector'
+    document.querySelector("").remove("");
 classList.toggle
+    - changes the true or false value of this item based on certain ac tions specified in the 'querySelector'
+    document.querySelector("").toggle("");
 
 ##Bonus
 innerHTML //DANGEROUS
+    - changes what the html item states and the styling of the item
+    document.querySelector("").innerHTML = "";
 
 parentElement
+    - gets the outer tag of the tag specified in the query
+    document.querySelector("").parentElement;
 children
+    - gets te items inside the query as an array
+    document.querySlector("").children;
 
 ##It is important to CACHE selectors in variables
