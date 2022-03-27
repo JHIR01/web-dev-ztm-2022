@@ -10,6 +10,9 @@ h1 {
 
 #item:hover {
     font-weight: bolder;
+    width: 200px;
+    height: auto;
+    transition-delay: 50ms;
 }
 
 #item {
@@ -19,11 +22,6 @@ h1 {
     border: 5px solid rgb(241, 166, 41);
     border-radius: .5em;
 }
-
-/* #item:hover {
-    width: 300px;
-    height: auto;
-} */
 
 .items {
     display: flex;
