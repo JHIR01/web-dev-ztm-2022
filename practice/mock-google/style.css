@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-bar {
+    Border: 1px solid black;
+}
