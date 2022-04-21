@@ -1,28 +1,24 @@
 // Question 1
-const roomFun = (arr) => {
+// 1. create a nested loop to compare each item in the array.
+// 2. If the number in the inner loop is equal to the number in the outer loop 
+//      then place the number in the same array.
+// 3. regardless if there is another duplication, each number will be placed in it's
+//      own array once the it has been looped in the first loop.
+// 4. Use a flat() function to make everything in the new array in it's correct format
+const cleanTheRoom = (arr) => {
     let newArr = [];
     for(var i = 0; i < arr.length; i++){
-        let tempNum1 = arr[i];
-        let tempArr = [tempNum1];
         for(var j = i + 1; j < arr.length; j++){
-            let tempNum2 = arr[j];
-            if (tempNum1 === tempNum2) {
-                tempArr.push(tempNum2);
+            if(arr[i] === arr[j]){
+                newArr.push(arr[i]);
+            } else {
+                newArr.push(arr[i]);
             }
         }
-        newArr.push(tempArr);
     }
     return newArr;
 }
 
-const isThere = (arr, tempN) => {
-    if (arr.includes(tempN)){
-        return true;
-    }
-    return false;
-}
-
-const placement = (arr, item) => {}
 // 1. Get the first number and see if there are any numbers equal to that one
 //      if there is a number in the array equal to that number then make an array
 //      and add the number to the array.
@@ -32,7 +28,7 @@ const placement = (arr, item) => {}
 //      will be placed behind the number previously evaluated.
 
 // Question 2
-const cleanTheRoom = (arr, target) => {
+const targetFun = (arr, target) => {
     let solution = [];
     for(var i = 0; i < arr.length; i++){
         var tempNum1 = arr[i];
